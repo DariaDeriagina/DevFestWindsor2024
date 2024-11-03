@@ -1,0 +1,77 @@
+body {
+	font-family: "Oswald", sans-serif;
+	color: #333;
+}
+
+/* Back Arrow Styling */
+.back-arrow img {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	transition: transform 0.3s ease;
+}
+
+.back-arrow img:hover {
+	transform: scale(1.1);
+}
+
+/* Bio Container Styling */
+.bio-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #e3f2fd;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image Styling */
+.profile-image {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border: 5px solid #4285f4; /* Google blue border */
+	padding: 5px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Name and Position */
+.name {
+	font-family: "Oswald", sans-serif;
+	color: #1e1e1e;
+	font-weight: 700;
+}
+
+.position {
+	font-size: 1.1rem;
+	color: #34a853; /* Google green */
+}
+
+/* Bio Description Styling */
+.bio-description {
+	font-size: 1rem;
+	line-height: 1.6;
+	color: #333;
+	max-width: 80%;
+}
+
+/* Footer Logo Styling */
+.footer-logo {
+	width: 400px;
+	height: auto;
+	opacity: 0.8;
+	transition: opacity 0.3s ease;
+}
+
+.footer-logo:hover {
+	opacity: 1;
+}
+
+/* Footer Copyright Section */
+.footer-copyright {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}

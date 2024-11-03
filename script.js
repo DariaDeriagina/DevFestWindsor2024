@@ -4,17 +4,17 @@ document
 	.addEventListener("click", function (e) {
 		e.stopPropagation(); // Prevents click from propagating
 		const dropdown = document.getElementById("calendar-dropdown");
-		dropdown.classList.toggle("show-dropdown");
+		// Toggle dropdown visibility
+		dropdown.style.display =
+			dropdown.style.display === "block" ? "none" : "block";
 	});
-
 // Hide the dropdown if clicked outside
 document.addEventListener("click", function (e) {
 	const dropdown = document.getElementById("calendar-dropdown");
-	if (
-		!dropdown.contains(e.target) &&
-		dropdown.classList.contains("show-dropdown")
-	) {
-		dropdown.classList.remove("show-dropdown");
+	const addToCalendarButton = document.getElementById("add-to-calendar");
+	// Check if the click target is not the button or the dropdown itself
+	if (!dropdown.contains(e.target) && e.target !== addToCalendarButton) {
+		dropdown.style.display = "none";
 	}
 });
 
