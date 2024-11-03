@@ -10,6 +10,8 @@
 		/>
 		<!-- Styles CSS -->
 		<link rel="stylesheet" href="styles.css" />
+
+ 
 		<title>Google DevFest 2024 Windsor</title>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -237,7 +239,20 @@
           <div class="session-info">
             <h3 class="session-title">Let's Use Generative AI Responsibly</h3>
             <p class="session-speaker">by Nicholas Schmidt</p>
+
+<div class="time-schedule-container"> 
             <p class="session-time">10:00 - 10:45</p>
+             <!-- Add to Schedule button -->
+             <button class="schedule-button" onclick="addToSchedule(
+    'Let\'s Use Generative AI Responsibly',
+    'Nicholas Schmidt',
+    '2024-11-16T10:00:00',
+    '2024-11-16T10:45:00',
+    'Room 104, Odette School of Busines 401 Sunset Avenue, Windsor, N9B 3P4'
+)">Add to Schedule</button>
+</div>
+            
+      
             
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo1" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
@@ -256,7 +271,17 @@
           <div class="session-info">
             <h3 class="session-title">Responsible Machine Learning & Artificial Intelligence : Predictive Policing Models in Baltimore </h3>
             <p class="session-speaker">by Andrea Yzeiri</p>
-            <p class="session-time">11:00 - 11:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">11:00 - 11:45</p>
+               <!-- Add to Schedule button -->
+               <button class="schedule-button" style="background-color: rgba(204, 246, 197, 0.40);              " onclick="addToSchedule(
+      'Responsible Machine Learning & Artificial Intelligence : Predictive Policing Models in Baltimore',
+      'Andrea Yzeiri',
+      '2024-11-16T11:00:00',
+      '2024-11-16T11:45:00',
+      'Room 104, Odette School of Busines 401 Sunset Avenue, Windsor, N9B 3P4'
+  )">Add to Schedule</button>
+  </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo2" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
             
@@ -277,7 +302,17 @@
           <div class="session-info">
             <h3 class="session-title">Pushing Beyond the Limitations of LLMs </h3>
             <p class="session-speaker">by Steven Rice</p>
-            <p class="session-time">1:00 - 1:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">1:00 - 1:45</p>
+               <!-- Add to Schedule button -->
+               <button class="schedule-button" style="background-color: rgba(204, 246, 197, 0.40);" onclick="addToSchedule(
+      'Pushing Beyond the Limitations of LLMs',
+      'Steven Rice',
+      '2024-11-16T13:00:00',
+      '2024-11-16T13:45:00',
+      'Room 104, Odette School of Busines 401 Sunset Avenue, Windsor, N9B 3P4'
+  )">Add to Schedule</button>
+  </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo3" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
             
@@ -292,17 +327,59 @@
           </div>
         </li>
 
-				<li class="session-item">
-          <img src="./speakersPictures/SafiiaMohammed.webp" alt="Speaker Image" class="session-img">
+        <li class="session-item">
+          <img src="./speakersPictures/KassuGebresellasie.webp" alt="Speaker Image" class="session-img">
           <div class="session-info">
-            <h3 class="session-title">Building Trustworthy AI: Harnessing Blockchain and Federated Learning for Future-Ready Security </h3>
-            <p class="session-speaker">by Safiia Mohammed</p>
-            <p class="session-time">3:00 - 3:45</p>
+            <h3 class="session-title">Reducing the Risk of Hallucination in Large Language Models (LLMs) </h3>
+            <p class="session-speaker">by Kassu Gebresellasie</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">2:00 - 2:45</p>
+               <!-- Add to Schedule button -->
+               <button class="schedule-button" style="background-color: rgba(204, 246, 197, 0.40);" onclick="addToSchedule(
+      'Reducing the Risk of Hallucination in Large Language Models (LLMs)',
+      'Kassu Gebresellasie',
+      '2024-11-16T14:00:00',
+      '2024-11-16T14:45:00',
+      'Room 104, Odette School of Busines 401 Sunset Avenue, Windsor, N9B 3P4'
+  )">Add to Schedule</button>
+  </div>
             <!-- Read more button -->
-            <a class="read-more" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
+            <a class="read-more" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo4">Read more &gt;</a>
             
             <!-- Collapsible Section with Extra Information -->
             <div class="collapse" id="moreInfo4">
+              <div class="mt-3">
+                <p>Large language models (LLMs) are transforming complex fields such as healthcare, finance, and legal systems, yet they pose significant risks when generating "hallucinations"confident but incorrect outputs. This talk addresses strategies to minimize these risks, combining theoretical underpinnings with hands-on technical demonstrations.
+                  We explore sources of hallucination in LLMs and introduce two core mitigation techniques: Retrieval-Augmented Generation (RAG) and Reinforcement Learning with Human Feedback (RLHF). RAG grounds LLM responses in factual knowledge bases, while RLHF fine-tunes models through expert input, improving their reliability in specialized domains. Using a live medical diagnosis case study, we’ll demonstrate the power of RAG in aligning LLM output with verified data and explore the effectiveness of prompt engineering techniques, such as embedding cautionary constraints, to limit speculative responses.
+                  By the session's end, participants will understand how to deploy these approaches in high-stakes environments, implement constraints that improve model trustworthiness, and critically evaluate the hallucination risk of LLM outputs.
+                  
+                  </p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="session-item">
+          <img src="./speakersPictures/SafiiaMohammed.webp" alt="Speaker Image" class="session-img">
+          <div class="session-info">
+              <h3 class="session-title">Building Trustworthy AI: Harnessing Blockchain and Federated Learning for Future-Ready Security</h3>
+              <p class="session-speaker">by Safiia Mohammed</p>
+              <div class="time-schedule-container"> 
+                  <p class="session-time">3:00 - 3:45</p>
+                  <!-- Add to Schedule button -->
+                  <button class="schedule-button" style="background-color: rgba(204, 246, 197, 0.40);" onclick="addToSchedule(
+                      'Building Trustworthy AI: Harnessing Blockchain and Federated Learning for Future-Ready Security',
+                      'Safiia Mohammed',
+                      '2024-11-16T15:00:00',
+                      '2024-11-16T15:45:00',
+                      'Room 104, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+                  )">Add to Schedule</button>
+              </div>
+            <!-- Read more button -->
+            <a class="read-more" data-bs-toggle="collapse" href="#moreInfo5" role="button" aria-expanded="false" aria-controls="moreInfo5">Read more &gt;</a>
+            
+            <!-- Collapsible Section with Extra Information -->
+            <div class="collapse" id="moreInfo5">
               <div class="mt-3">
                 <p>In today's rapidly evolving industries—such as healthcare, finance, and manufacturing—AI systems have become essential. Still, they bring complex security challenges impacting system performance and decision-making. AI can be both a victim and a source of harm, leading to significant technical, ethical, legal, and societal consequences. Traditional digital forensics methods fall short when applied to AI systems' unclear, black-box nature. This talk introduces a novel, forensics-friendly framework designed to improve forensic readiness in AI. Using Federated Learning as a case study, we explore how integrating blockchain technology enhances security by ensuring immutability, integrity, and transparency.
                 </p>
@@ -310,24 +387,36 @@
             </div>
           </div>
         </li>
+
+
       </ul>
     </div>
 
 
     <!-- Startups/Career -->
-     <!-- Sessions Speaker 1 -->
+     <!-- Sessions Speaker 1 ADAM CASTLE -->
     <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
       <ul class="session-list">
         <li class="session-item">
           <img src="./speakersPictures/AdamCastle.webp" alt="Speaker Image" class="session-img">
           <div class="session-info">
             <h3 class="session-title">Windsor-Essex Startup Spotlight: Kickstarting Your Tech Venture (or Career) in Windsor-Essex</h3>
-            <p class="session-speaker">by
-              Adam Castle</p>
-            <p class="session-time">at 10:00 - 10:45</p>
+            <p class="session-speaker">by Adam Castle</p>
+              <div class="time-schedule-container"> 
+                <p class="session-time">10:00 - 10:45</p>
+                <!-- Add to Schedule button -->
+                <button class="schedule-button" style="background-color: #ffd427;" onclick="addToSchedule(
+                    'Windsor-Essex Startup Spotlight: Kickstarting Your Tech Venture (or Career) in Windsor-Essex',
+                    'Adam Castle',
+                    '2024-11-16T10:00:00',
+                    '2024-11-16T10:45:00',
+                    'Room 108, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+                )">Add to Schedule</button>
+            </div>
+
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo1" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
-            
+ 
             <!-- Collapsible Section with Extra Information -->
             <div class="collapse" id="moreInfo1">
               <div class="mt-3">
@@ -337,14 +426,24 @@
             </div>
           </div>
         </li>
-         <!-- Sessions Speaker 2 -->
+         <!-- Sessions Speaker 2  -->
         <li class="session-item">
           <img src="./speakersPictures/KassimNizam.webp" alt="Speaker Image" class="session-img">
           <div class="session-info">
             <h3 class="session-title">Unlocking Funding for Startups: Leveraging Government Incentives and Grants for Sustainable Growth
             </h3>
             <p class="session-speaker">by Kassem Nizam</p>
-            <p class="session-time">at 11:00 - 11:45 </p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">11:00 - 11:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color:#ffd427;" onclick="addToSchedule(
+                  'Unlocking Funding for Startups: Leveraging Government Incentives and Grants for Sustainable Growth',
+                  'Kassem Nizam',
+                  '2024-11-16T11:00:00',
+                  '2024-11-16T11:45:00',
+                  'Room 108, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo2" role="button" aria-expanded="false" aria-controls="moreInfo2">Read more &gt;</a>
             
@@ -364,7 +463,17 @@
           <div class="session-info">
             <h3 class="session-title">Beyond Code: The Hidden Skills Every Software Engineer Needs</h3>
             <p class="session-speaker">by Don Ward</p>
-            <p class="session-time">at 2:00 - 2:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">2:00 - 2:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: #ffd427;" onclick="addToSchedule(
+                  'Beyond Code: The Hidden Skills Every Software Engineer Needs',
+                  'Don Ward',
+                  '2024-11-16T14:00:00',
+                  '2024-11-16T14:45:00',
+                  'Room 108, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo3" role="button" aria-expanded="false" aria-controls="moreInfo3">Read more &gt;</a>
             
@@ -383,10 +492,19 @@
         <li class="session-item">
           <img src="./speakersPictures/AislynLaurent.webp" alt="Speaker Image" class="session-img">
           <div class="session-info">
-            <h3 class="session-title">Data Management in Research: Global Strategies
-            </h3>
+            <h3 class="session-title">Data Management in Research: Global Strategies</h3>
             <p class="session-speaker">by Aislyn Laurent</p>
-            <p class="session-time">at 3:00 - 3:45 </p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">3:00 - 3:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: #ffd427;" onclick="addToSchedule(
+                  'Data Management in Research: Global Strategies',
+                  'Aislyn Laurent',
+                  '2024-11-16T15:00:00',
+                  '2024-11-16T15:45:00',
+                  'Room 108, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo4">Read more &gt;</a>
             
@@ -411,7 +529,17 @@
           <div class="session-info">
             <h3 class="session-title">Create your own LLM</h3>
             <p class="session-speaker">by Godfrey Nolan</p>
-            <p class="session-time">at 10:00 - 10:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">10:00 - 10:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: rgba(255, 231, 165, 0.40);" onclick="addToSchedule(
+                  'Create your own LLM',
+                  'Godfrey Nolan',
+                  '2024-11-16T10:00:00',
+                  '2024-11-16T10:45:00',
+                  'Room 110, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo1" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
             
@@ -429,7 +557,17 @@
           <div class="session-info">
             <h3 class="session-title">The Rise of AI Agents: From Concept to Reality</h3>
             <p class="session-speaker">by Nilesh Patel</p>
-            <p class="session-time">at 11:00 - 11:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">11:00 - 11:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: rgba(255, 231, 165, 0.40);" onclick="addToSchedule(
+                  'The Rise of AI Agents: From Concept to Reality',
+                  'Nilesh Patel',
+                  '2024-11-16T11:00:00',
+                  '2024-11-16T11:45:00',
+                  'Room 110, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo2" role="button" aria-expanded="false" aria-controls="moreInfo2">Read more &gt;</a>
             
@@ -453,7 +591,17 @@
             <h3 class="session-title">stoRy time with Shiny, Quarto, and Google Cloud Run: Write and Illustrate Stories with AI
             </h3>
             <p class="session-speaker">by Umair Durrani</p>
-            <p class="session-time">at 1:00 - 1:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">1:00 - 1:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: rgba(255, 231, 165, 0.40);" onclick="addToSchedule(
+                  'stoRy time with Shiny, Quarto, and Google Cloud Run: Write and Illustrate Stories with AI',
+                  'Umair Durrani',
+                  '2024-11-16T13:00:00',
+                  '2024-11-16T13:45:00',
+                  'Room 110, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo3" role="button" aria-expanded="false" aria-controls="moreInfo3">Read more &gt;</a>
             
@@ -471,10 +619,19 @@
         <li class="session-item">
           <img src="./speakersPictures/KiranPuthan.jpeg" alt="Speaker Image" class="session-img">
           <div class="session-info">
-            <h3 class="session-title">Mastering Google Gemini: Unlocking the Power of Precision Prompting
-            </h3>
+            <h3 class="session-title">Mastering Google Gemini: Unlocking the Power of Precision Prompting</h3>
             <p class="session-speaker">by Kiran Puthan</p>
-            <p class="session-time">at 2:00 - 2:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">2:00 - 2:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: rgba(255, 231, 165, 0.40);" onclick="addToSchedule(
+                  'Mastering Google Gemini: Unlocking the Power of Precision Prompting',
+                  'Kiran Puthan',
+                  '2024-11-16T14:00:00',
+                  '2024-11-16T14:45:00',
+                  'Room 110, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo4">Read more &gt;</a>
             
@@ -493,7 +650,17 @@
           <div class="session-info">
             <h3 class="session-title">Customizing Gemini: A Low-Code/No-Code Approach to LLMs</h3>
             <p class="session-speaker">by Keval Patel</p>
-            <p class="session-time">at 3:00 - 3:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">3:00 - 3:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: rgba(255, 231, 165, 0.40);" onclick="addToSchedule(
+                  'Customizing Gemini: A Low-Code/No-Code Approach to LLMs',
+                  'Keval Patel',
+                  '2024-11-16T15:00:00',
+                  '2024-11-16T15:45:00',
+                  'Room 110, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo5" role="button" aria-expanded="false" aria-controls="moreInfo5">Read more &gt;</a>
             
@@ -520,7 +687,17 @@
           <div class="session-info">
             <h3 class="session-title">High-Performance Computing (HPC) with Java</h3>
             <p class="session-speaker">by Abdul Habra </p>
-            <p class="session-time">at 11:00 - 11:45</p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">11:00 - 11:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: #F8D8D8;" onclick="addToSchedule(
+                  'High-Performance Computing (HPC) with Java',
+                  'Abdul Habra',
+                  '2024-11-16T11:00:00',
+                  '2024-11-16T11:45:00',
+                  'Room B02, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo1" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
             
@@ -545,7 +722,17 @@
           <div class="session-info">
             <h3 class="session-title">Run to the Light Carol Anne: Auditing with Lighthouse</h3>
             <p class="session-speaker">by Chris DeMars</p>
-            <p class="session-time">at 1:00 - 1:45 </p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">1:00 - 1:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: #F8D8D8;" onclick="addToSchedule(
+                  'Run to the Light Carol Anne: Auditing with Lighthouse',
+                  'Chris DeMars',
+                  '2024-11-16T13:00:00',
+                  '2024-11-16T13:45:00',
+                  'Room B02, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo2" role="button" aria-expanded="false" aria-controls="moreInfo2">Read more &gt;</a>
             
@@ -563,7 +750,17 @@
           <div class="session-info">
             <h3 class="session-title">Streamlining Cloud-Ready Applications with Docker and Google Cloud</h3>
             <p class="session-speaker">by Dave Neufeld</p>
-            <p class="session-time">at 2:00 - 2:45 </p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">2:00 - 2:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: #F8D8D8;" onclick="addToSchedule(
+                  'Streamlining Cloud-Ready Applications with Docker and Google Cloud',
+                  'Dave Neufeld',
+                  '2024-11-16T14:00:00',
+                  '2024-11-16T14:45:00',
+                  'Room B02, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo3" role="button" aria-expanded="false" aria-controls="moreInfo3">Read more &gt;</a>
             
@@ -585,7 +782,17 @@
             <h3 class="session-title">Figma for Developers in 2024: Boost Your Designs with AI Extensions
             </h3>
             <p class="session-speaker">by Daria Deriagina</p>
-            <p class="session-time">at 3:00 - 3:45 </p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">3:00 - 3:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: #F8D8D8;" onclick="addToSchedule(
+                  'Figma for Developers in 2024: Boost Your Designs with AI Extensions',
+                  'Daria Deriagina',
+                  '2024-11-16T15:00:00',
+                  '2024-11-16T15:45:00',
+                  'Room B02, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
             <!-- Read more button -->
             <a class="read-more" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo4">Read more &gt;</a>
             
@@ -607,13 +814,25 @@
  <div class="tab-pane fade" id="obb04" role="tabpanel" aria-labelledby="obb04-tab">
   <ul class="session-list">
     <li class="session-item">
+      <div class="photo-block">
       <img src="./speakersPictures/HarjeetSingh.webp" alt="Speaker Image" class="session-img">
       <img src="./speakersPictures/ArchitSingh.webp" alt="Speaker Image" class="session-img">
+    </div>
       <div class="session-info">
         <h3 class="session-title">Sports Analytics Computer Vision Coding Challenge</h3>
         <p class="session-speaker">by Harjeet Singh &
           Archit Singh</p>
-        <p class="session-time">at 10:00 - 10:45</p>
+          <div class="time-schedule-container"> 
+            <p class="session-time">10:00 - 10:45</p>
+            <!-- Add to Schedule button -->
+            <button class="schedule-button" style="background-color: #C2EBF7" onclick="addToSchedule(
+                'Sports Analytics Computer Vision Coding Challenge',
+                'Harjeet Singh & Archit Singh',
+                '2024-11-16T10:00:00',
+                '2024-11-16T10:45:00',
+                'Room OBB04, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+            )">Add to Schedule</button>
+        </div>
         <!-- Read more button -->
         <a class="read-more" data-bs-toggle="collapse" href="#moreInfo1" role="button" aria-expanded="false" aria-controls="moreInfo1">Read more &gt;</a>
             
@@ -632,7 +851,17 @@
       <div class="session-info">
         <h3 class="session-title">From Code to Customer: Unlocking Product Thinking for Developers</h3>
         <p class="session-speaker">by Sean Bridgement</p>
-        <p class="session-time">at 11:00 - 11:45</p>
+        <div class="time-schedule-container"> 
+          <p class="session-time">11:00 - 11:45</p>
+          <!-- Add to Schedule button -->
+          <button class="schedule-button" style="background-color: #C2EBF7" onclick="addToSchedule(
+              'From Code to Customer: Unlocking Product Thinking for Developers',
+              'Sean Bridgement',
+              '2024-11-16T11:00:00',
+              '2024-11-16T11:45:00',
+              'Room OBB04, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+          )">Add to Schedule</button>
+      </div>
         <!-- Read more button -->
         <a class="read-more" data-bs-toggle="collapse" href="#moreInfo2" role="button" aria-expanded="false" aria-controls="moreInfo2">Read more &gt;</a>
             
@@ -645,12 +874,24 @@
         </div>
       </div>
     </li>
+
+    <!-- Session by  by Narges Rahimi  -->
     <li class="session-item">
       <img src="./speakersPictures/NargesRahimi.webp" alt="Speaker Image" class="session-img">
       <div class="session-info">
         <h3 class="session-title">Implementing TARA for Automotive Cybersecurity: Insights and Best Practices</h3>
         <p class="session-speaker">by Narges Rahimi </p>
-        <p class="session-time">at 1:00 - 1:45</p>
+        <div class="time-schedule-container"> 
+          <p class="session-time">1:00 - 1:45</p>
+          <!-- Add to Schedule button -->
+          <button class="schedule-button" style="background-color: #C2EBF7" onclick="addToSchedule(
+              'Implementing TARA for Automotive Cybersecurity: Insights and Best Practices',
+              'Narges Rahimi',
+              '2024-11-16T13:00:00',
+              '2024-11-16T13:45:00',
+              'Room OBB04, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+          )">Add to Schedule</button>
+      </div>
         <!-- Read more button -->
         <a class="read-more" data-bs-toggle="collapse" href="#moreInfo3" role="button" aria-expanded="false" aria-controls="moreInfo3">Read more &gt;</a>
             
@@ -664,13 +905,58 @@
         </div>
       </div>
     </li>
+
+
+        <!-- Session by Mina Girgis & Scott Cornell -->
+        <li class="session-item">
+          <div class="photo-block">
+          <img src="./speakersPictures/minaGirges.webp" alt="Speaker Image" class="session-img">
+          <img src="./speakersPictures/corneilScott.webp" alt="Speaker Image" class="session-img">
+          </div>
+          <div class="session-info">
+            <h3 class="session-title">Transforming Enterprise Security: How Zero Trust Frameworks are Redefining Tech Stacks for the Future</h3>
+            <p class="session-speaker">by Mina Girges & Scott Cornell </p>
+            <div class="time-schedule-container"> 
+              <p class="session-time">1:00 - 1:45</p>
+              <!-- Add to Schedule button -->
+              <button class="schedule-button" style="background-color: #C2EBF7" onclick="addToSchedule(
+                  'Transforming Enterprise Security: How Zero Trust Frameworks are Redefining Tech Stacks for the Future',
+                  'Mina Girges & Scott Cornell',
+                  '2024-11-16T14:00:00',
+                  '2024-11-16T14:45:00',
+                  'Room OBB04, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+              )">Add to Schedule</button>
+          </div>
+            <!-- Read more button -->
+            <a class="read-more" data-bs-toggle="collapse" href="#moreInfo5" role="button" aria-expanded="false" aria-controls="moreInfo5">Read more &gt;</a>
+                
+            <!-- Collapsible Section with Extra Information -->
+            <div class="collapse" id="moreInfo5">
+              <div class="mt-3">
+                <p>In today’s world of relentless cyber threats, traditional defenses aren’t enough to keep organizations safe. That’s where the Zero Trust framework comes in: a powerful, modern approach to security that rethinks protection with continuous verification, least-privilege access, and a strict “never trust, always verify” philosophy. More than just a security model, Zero Trust is reshaping technology stacks and guiding the strategies of CIOs and IT leaders everywhere. Join us to explore how Zero Trust safeguards enterprise environments and enables secure, adaptable tech infrastructures. Whether you’re starting or scaling your Zero Trust strategy, this session will provide insights to build resilient, future-focused security for your organization.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      <!-- Session by Joe Youssouf  -->
     <li class="session-item">
       <img src="./speakersPictures/JosephYoussouf.webp" alt="Speaker Image" class="session-img">
       <div class="session-info">
         <h3 class="session-title">Using Time Series Models to Support Real-Time Decision-Making by Manufacturing Operators
         </h3>
-        <p class="session-speaker">by Joe Youssouf </p>
-        <p class="session-time">at 3:00 - 3:45</p>
+        <p class="session-speaker">by Joe Youssouf</p>
+        <div class="time-schedule-container"> 
+          <p class="session-time">3:00 - 3:45</p>
+          <!-- Add to Schedule button -->
+          <button class="schedule-button" style="background-color: #C2EBF7" onclick="addToSchedule(
+              'Using Time Series Models to Support Real-Time Decision-Making by Manufacturing Operators',
+              ' Joe Youssouf',
+              '2024-11-16T15:00:00',
+              '2024-11-16T15:45:00',
+              'Room OBB04, Odette School of Business, 401 Sunset Avenue, Windsor, N9B 3P4'
+          )">Add to Schedule</button>
+      </div>
         <!-- Read more button -->
         <a class="read-more" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo4">Read more &gt;</a>
             
@@ -1541,6 +1827,7 @@
 
 			<!-- JS  -->
 		<script src="script.js"></script>
+    <script src="addToSchedule.js"></script>
 
 	
 	</body>
