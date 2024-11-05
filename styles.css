@@ -759,16 +759,21 @@ p.card-text.position-title {
 	.google-text-don {
 		margin-bottom: 1.5rem;
 	}
-	.google-text-don2 {
+
+	.google-text-kassuu {
+		margin-bottom: 2.5rem;
+	}
+
+	.google-text-umair {
+		margin-bottom: 2.5rem;
+	}
+
+	.google-text-abdul {
 		margin-bottom: 2.4rem;
 	}
 
-	.google-text-ranem {
-		margin-bottom: 1.4rem;
-	}
-
-	.google-text-archit {
-		margin-bottom: 3.8rem;
+	.google-text-aislyn {
+		margin-bottom: 2.4rem;
 	}
 
 	#mentor .linkedin-icon {
