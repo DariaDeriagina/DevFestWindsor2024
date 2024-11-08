@@ -634,6 +634,49 @@ p.card-text.position-title {
 	margin-bottom: 0;
 }
 
+/****** Contact Section *******/
+.contact-section {
+	background-color: #ccf6c5;
+	padding: 2rem;
+}
+
+.section-title {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+	font-size: 1.1rem;
+	color: #666;
+	margin-bottom: 1.5rem;
+}
+
+/* Form Styles */
+.form-label {
+	font-weight: 600;
+	color: #333;
+}
+
+.form-control {
+	border-radius: 0.25rem;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border: none;
+	border-radius: 0.25rem;
+	padding: 0.75rem 1.5rem;
+	font-size: 1rem;
+}
+
+/* Contact Image */
+.contact-image {
+	max-width: 100%;
+	border-radius: 0.5rem;
+}
+
 /* Footer Section */
 .footer-section {
 	background-color: #c2ebf7;
