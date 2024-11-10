@@ -655,7 +655,7 @@ p.card-text.position-title {
 	border-radius: 0.25rem;
 }
 
-.btn-primary {
+.btn-secondary {
 	margin: 0 auto;
 	display: block;
 	background-color: #007bff;
@@ -824,5 +824,9 @@ p.card-text.position-title {
 
 	.sponsor-logo {
 		max-width: 100px;
+	}
+
+	.btn-secondary {
+		margin-bottom: 15px;
 	}
 }
