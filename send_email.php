@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $firstName = $_POST['firstName'];
     $lastName = $_POST['lastName'];
@@ -6,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = $_POST['phone'];
     $message = $_POST['message'];
 
-    $to = "ali.gdg.windsor@gmail.com";  
+    $to = "deriagina.daria@icloud.com";  
     $subject = "New Message from DevFest Contact Form";
     $body = "First Name: $firstName\nLast Name: $lastName\nEmail: $email\nPhone: $phone\nMessage:\n$message";
 
