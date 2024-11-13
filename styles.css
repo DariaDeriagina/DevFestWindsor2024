@@ -234,6 +234,36 @@ h2#about-event {
 	padding: 0;
 }
 
+.session-room {
+	display: block;
+	color: #0f9d58;
+	font-weight: bold;
+}
+
+.session2-room {
+	display: block;
+	color: #4285f4;
+	font-weight: bold;
+}
+
+.session3-room {
+	display: block;
+	color: #ab47bc;
+	font-weight: bold;
+}
+
+.session4-room {
+	display: block;
+	color: #db4437;
+	font-weight: bold;
+}
+
+.session5-room {
+	display: block;
+	color: #f4b400;
+	font-weight: bold;
+}
+
 .session-item {
 	display: flex;
 	align-items: center;
