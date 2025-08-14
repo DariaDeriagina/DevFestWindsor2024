@@ -6,6 +6,9 @@ body {
 
 /**** Navbar ****/
 .navbar {
+	position: sticky;
+	top: 0;
+	z-index: 1050; /* поверх всего контента */
 	background: linear-gradient(
 		90deg,
 		rgba(52, 168, 83, 0.21),
@@ -767,6 +770,17 @@ p.card-text.position-title {
 	.navbar-nav .nav-link {
 		font-size: 0.9rem;
 		margin-right: 10px;
+	}
+
+	.navbar-nav {
+		text-align: center;
+		width: 100%;
+	}
+
+	.navbar-nav .nav-link {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
 	}
 
 	.event-date {
