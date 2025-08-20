@@ -4,7 +4,7 @@ body {
 	color: #333;
 }
 
-/**** Navbar ****/
+/**** MARK: Navbar ****/
 .navbar {
 	position: sticky;
 	top: 0;
@@ -231,7 +231,7 @@ h2#about-event {
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/********* Sessions ***********/
+/********* MARK: Sessions ***********/
 .session-list {
 	list-style-type: none;
 	padding: 0;
@@ -345,7 +345,7 @@ h2#about-event {
 	color: #4285f4;
 }
 
-/* Location Section Styling */
+/*  MARK: Location Section Styling */
 .location-section {
 	background-color: #eaf7e4;
 }
